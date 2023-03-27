@@ -10,22 +10,74 @@
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+      integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .rounded-img {
+        width: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        padding: 0.6em;
+        margin-bottom: 1em;
+      }
+    </style>
   </head>
   <body>
-    <div class="container text-center">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/"
+          ><img src="DE.png" alt="logo" width="100"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Places.html">Favorite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center my-5">
       <div class="row">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <img src="Capture001.png" alt="adwdawdwadwdwd" />
-          <h1 class="fw-light">Hello</h1>
-          <p class="lead text-nuted">
-            wadawdwdwadwaaFq/bzH+w62ooMVUpc+21e0SRygnTaFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnT
-          </p>
+        <div class="">
+          <img
+            class="rounded-img"
+            src="Capture001.png"
+            alt="я в Доте"
+            width="1500"
+          />
+          <h1 class="fw-light">Dota 2</h1>
+          <p class="lead text-nuted">Привет, меня зовут Даня</p>
           <a
             href="https://vk.com/danila_sh3"
             target="_blank"
             class="btn btn-primary"
           >
-            Like!
+            My profile
+          </a>
+          <a
+            href="https://vk.com/id193109518"
+            target="_blank"
+            class="btn btn-warning"
+          >
+            My girlfriend's profile
           </a>
         </div>
       </div>
